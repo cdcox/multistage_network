@@ -1,8 +1,8 @@
-This is a model of a multistage network with stages representing regions and synaptic cotacts from the olfactory cortex to the CA1 of the hippocampus in Brian2. It is primarily designed to assess how syanptic facilitation at multiple stages in response to theta firing changes the output of the network. Further developments will be posted at: github.com/cdcox/multistage_network
+This is a model of a multistage network with stages representing regions and synaptic contacts from the olfactory cortex to region CA1 of the hippocampus in Brian2 spiking neural network simulator. It is primarily designed to assess how syanptic facilitation at multiple stages in response to theta firing changes the output of the network. Further developments will be posted at: github.com/cdcox/multistage_network
 
-It is published in Pronounced differences in signal processing and synaptic plasticity between piriform-hippocampal network stages: A prominent role for adenosine. Brian H. Trieu, Enikö A. Kramár, Conor D. Cox, Yousheng Jia, Weisheng Wang, Christine M. Gall, and Gary Lynch Journal of Physiology 2015.
+It is published in the paper "Pronounced differences in signal processing and synaptic plasticity between piriform-hippocampal network stages: A prominent role for adenosine". Brian H. Trieu, Enikö A. Kramár, Conor D. Cox, Yousheng Jia, Weisheng Wang, Christine M. Gall, and Gary Lynch Journal of Physiology 2015.
 
-This model was prepared by Conor D Cox
+This model was prepared by Conor D Cox University of California, Irvine
 For questions please contact Conor at cdcox1@gmail.com
 
 What it contains:
@@ -15,8 +15,8 @@ How to use:
 
 1. Unpack the model file and the csv.
 
-2. Run the model, it should generate a figure similar (but not identical as connecitons randomize each run) to figure 9 in the above mentioned.
+2. Run the model, it should generate a figure similar (but not identical as connections randomize each run) to figure 9 in the above mentioned paper.
 
-3. synapse_monitor can be used to probe state of individual synapses throughout firing train
+3. synapse_monitor can be used to probe state of individual synapses throughout firing train.
 
-4. cell_monitor can be used to monitor region specific spiking
+4. cell_monitor can be used to monitor region specific spiking.
